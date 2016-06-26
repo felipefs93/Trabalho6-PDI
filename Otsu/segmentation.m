@@ -20,6 +20,6 @@ image(new_img)
 
 
 %OTSU: http://www.mathworks.com/help/images/ref/graythresh.html
-level = graythresh(new_img);
-BW = im2bw(new_img,level);
+level = graythresh(red);
+BW = im2bw(red,level);
 imshow(BW)

@@ -18,8 +18,8 @@ new_img = cat(3,red,green,blue);
 
 image(new_img)
 
-%Region growing: https://www.mathworks.com/matlabcentral/fileexchange/19084-region-growing
- I = red
- x=198; y=359;
- J = regiongrowing(I,x,y,0.2); 
- figure, imshow(I+J);
+
+%OTSU: http://www.mathworks.com/help/images/ref/graythresh.html
+level = graythresh(red);
+BW = im2bw(red,level);
+imshow(BW)

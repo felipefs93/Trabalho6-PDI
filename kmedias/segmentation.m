@@ -25,4 +25,5 @@ imseg = zeros(size(red,1),size(red,2));
 for i=1:max(idx)
     imseg(idx==i)=i;
 end
-imagesc(imseg)
+imagesc(0,0,imseg)
+

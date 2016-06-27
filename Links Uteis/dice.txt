@@ -1,0 +1,1 @@
+https://www.mathworks.com/matlabcentral/answers/68720-dice-similarity-index-between-segmented-image-and-ground-truth
